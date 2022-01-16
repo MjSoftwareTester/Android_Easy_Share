@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeActivity">
+
+        <LinearLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/topHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:minHeight="?android:attr/actionBarSize"
+                app:theme="@style/AppTheme">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rMenu1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:paddingStart="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingTop="11dp"
+                        android:paddingEnd="11dp"
+                        android:paddingRight="11dp"
+                        android:paddingBottom="11dp">
+
+                        <ImageView
+                            android:id="@+id/imgMenu"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_alignWithParentIfMissing="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/img_menu" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/imgLogo"
+                        android:layout_width="45dp"
+                        android:layout_height="39dp"
+                        android:layout_alignWithParentIfMissing="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:visibility="gone"
+                        android:layout_toEndOf="@+id/rMenu1"
+                        android:layout_toRightOf="@+id/rMenu1"
+                        android:src="@drawable/img_menu" />
+
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlBusiness"
+            android:visibility="visible"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relativeLayout1">
+
+
+            <ListView
+                android:id="@+id/listCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+
+            <ImageView
+                android:id="@+id/imgAdd"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/img_add_red"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <fragment
+        android:id="@+id/fragmentMenu"
+        android:name="com.authapp.Fragment.MenuFragment"
+        android:layout_width="295dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:layout="@layout/fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

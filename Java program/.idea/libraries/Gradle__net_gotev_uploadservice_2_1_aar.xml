@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: net.gotev:uploadservice:2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d89d9cfa7e5f4a349ab354aa4281add0/jetified-uploadservice-2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d89d9cfa7e5f4a349ab354aa4281add0/jetified-uploadservice-2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d89d9cfa7e5f4a349ab354aa4281add0/jetified-uploadservice-2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/08edc0ab3b59170098876d6872a203ec/jetified-uploadservice-2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90ca891d1dd3700c947ea8b8b9b5377a/jetified-uploadservice-2.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90ca891d1dd3700c947ea8b8b9b5377a/jetified-uploadservice-2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90ca891d1dd3700c947ea8b8b9b5377a/jetified-uploadservice-2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d927723a8b52ea4fafab9dfdd18e117/jetified-uploadservice-2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d927723a8b52ea4fafab9dfdd18e117/jetified-uploadservice-2.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d927723a8b52ea4fafab9dfdd18e117/jetified-uploadservice-2.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.gotev/uploadservice/2.1/7df15b22b31869dcbffa623341dba37ed8c69191/uploadservice-2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.gotev/uploadservice/2.1/cbe8e138c4b5373b3707c54dce1c49a4e4ab0be7/uploadservice-2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
